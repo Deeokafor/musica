@@ -5,11 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musica</title>
+    <link rel="stylesheet" href="assets/tailwindstyle.css">
 </head>
 <body>
-    <main>
-        <nav></nav>
-        <div></div>
+    <main class="tw-h-screen tw-w-full">
+        <div class="tw-flex">
+            <div id="side_bar" class="tw-bg-gray-400 tw-h-screen tw-w-1/12 tw-flex tw-flex-col tw-items-center tw-p-4">
+                <div id="logo" class="tw-p-6 tw-rounded-2xl tw-overflow-hidden tw-bg-black/10 tw-mb-4"></div>
+                <nav id="nav" class="tw-p-2 tw-rounded-3xl tw-overflow-hidden tw-bg-black/10 tw-mb-4 tw-h-44">
+                    <ul class="tw-flex tw-flex-col tw-justify-between tw-h-full">
+                        <li class="tw-p-4 tw-rounded-full tw-bg-black/20"></li>
+                        <li class="tw-p-4 tw-rounded-full tw-bg-black/20"></li>
+                        <li class="tw-p-4 tw-rounded-full tw-bg-black/20"></li>
+                        <li class="tw-p-4 tw-rounded-full tw-bg-black/20"></li>
+                    </ul>
+                </nav>
+                <div id="user_account" class="tw-h-[88px] tw-p-2 tw-rounded-3xl tw-overflow-hidden tw-bg-black/10 tw-mb-4 tw-flex tw-flex-col tw-justify-between">
+                    <div class="tw-p-4 tw-rounded-full tw-bg-black/20"></div>
+                    <div class="tw-p-4 tw-rounded-full tw-bg-black/20"></div>
+                </div>
+                
+            </div>
+            <div id="main_area" class="tw-bg-gray-300 tw-h-screen tw-w-11/12">
+                <div id="search_bar"></div>
+            </div>
+        </div>
+        <div id="bottom_bar" class="tw-w-full tw-h-[100px] tw-fixed tw-bottom-0 tw-z-50 tw-bg-black/10">
+            <div id="song_details">
+                <div id="album_art"></div>
+                <div id="song_details">
+                    <div id="song_name"></div>
+                    <div id="artist_name"></div>
+                </div>
+            </div>
+            <div id="media_area">
+                <audio src=""></audio>
+
+            </div>
+            <div id="album_art"></div>
+        </div>
     </main>
 </body>
 </html>

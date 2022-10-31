@@ -1,0 +1,27 @@
+{
+  "name": "musica",
+  "version": "1.0.0",
+  "description": "Musica UI build challenge on twitter @ https://twitter.com/codingossy/status/1578823693979242497",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i input.css -o assets/tailwindstyle.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deeokafor/musica.git"
+  },
+  "keywords": [
+    "music",
+    "divine",
+    "deeokafor",
+    "twitter",
+    "challenge"
+  ],
+  "author": "Divine Okafor-udah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deeokafor/musica/issues"
+  },
+  "homepage": "https://github.com/Deeokafor/musica#readme"
+}
