@@ -9,8 +9,10 @@
 </head>
 <body>
     <main class="tw-h-screen tw-w-full">
+        <!--sidebar and main media area-->
         <div class="tw-flex">
-            <div id="side_bar" class="tw-bg-gray-400 tw-h-screen tw-w-1/12 tw-flex tw-flex-col tw-items-center tw-p-4">
+            <!--sidebar-->
+            <div id="side_bar" class=" tw-h-screen tw-w-1/12 tw-flex tw-flex-col tw-items-center tw-p-4">
                 <div id="logo" class="tw-p-6 tw-rounded-2xl tw-overflow-hidden tw-bg-black/10 tw-mb-4"></div>
                 <nav id="nav" class="tw-p-2 tw-rounded-3xl tw-overflow-hidden tw-bg-black/10 tw-mb-4 tw-h-44">
                     <ul class="tw-flex tw-flex-col tw-justify-between tw-h-full">
@@ -26,11 +28,22 @@
                 </div>
                 
             </div>
-            <div id="main_area" class="tw-bg-gray-300 tw-h-screen tw-w-11/12">
-                <div id="search_bar"></div>
+
+            <!--main media area-->
+            <div id="main_area" class="tw-bg-gray-300/20 tw-h-screen tw-w-10/12">
+                <!--search bar-->
+                <div id="search_bar" class="tw-h-20 tw-bg-black/0 tw-flex tw-flex-row tw-items-center tw-p-4">
+                    <div class="tw-rounded-3xl tw-overflow-hidden tw-w-full tw-flex">
+                        <div id="search_icon" class="tw-rounded-full tw-p-4 tw-bg-black/10 tw-mr-2"></div>
+                        <input type="text" placeholder="search artist" class="tw-bg-transparent tw-outline-none">
+                    </div>
+                </div>
+                <div class=""></div>
             </div>
         </div>
-        <div id="bottom_bar" class="tw-w-full tw-h-[100px] tw-fixed tw-bottom-0 tw-z-50 tw-bg-black/10">
+
+        <!--media controls area-->
+        <div id="bottom_bar" class="tw-w-full tw-h-[100px] tw-fixed tw-bottom-0 tw-z-50 tw-bg-black/10 tw-backdrop-blur-sm">
             <div id="song_details">
                 <div id="album_art"></div>
                 <div id="song_details">
