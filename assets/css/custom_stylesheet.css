@@ -1,0 +1,13 @@
+/*
+    standard scrollbar css
+*/
+* {
+    scrollbar-color: rgba(0, 0, 0, 0.05) transparent;
+    scrollbar-width: thin;
+}
+/*
+    webkit based browsers compatibility
+*/
+*::-webkit-scrollbar {
+    width: thin;
+}
