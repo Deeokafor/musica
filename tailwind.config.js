@@ -7,7 +7,8 @@ module.exports = {
       colors: {
         dee: {
           black: '#1D2123',
-          mobile_menu_black: '#1A1E1F'
+          mobile_menu_black: '#1A1E1F',
+          hero: '#609EAF'
         }
       }
     },

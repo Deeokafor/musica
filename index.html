@@ -12,7 +12,7 @@
 <body>
     <main class="tw-h-screen tw-overflow-hidden tw-w-full tw-bg-dee-black">
         <!--container-->
-        <div class="tw-p-3">
+        <div  class="dee-container tw-p-3">
             <nav class="tw-flex tw-flex-col">
                 <div class="tw-flex tw-justify-between tw-items-center tw-h-14">
                     <!--mobile menu trigger-->
@@ -29,16 +29,60 @@
         </div>
 
         <!--mobile navbar menu-->
-        <div id="mobile_menu" class="tw-invisible tw-fixed tw-top-0 tw-w-full tw-text-gray-500 tw-h-screen tw-bg-black/50">
-            <ul class=" tw-h-screen tw-w-10/12 tw-px-10 tw-py-20 tw-font-bold tw-bg-dee-mobile_menu_black">
-                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Home</span></li>
-                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>My collections</span></li>
-                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Radio</span></li>
-                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Music videos</span></li>
-                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Profile</span></li>
-                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Log out</span></li>
+        <div id="mobile_menu" class=" tw-z-50 tw-invisible tw-fixed tw-top-0 tw-w-full tw-text-gray-500 tw-h-screen tw-bg-black/50">
+            <ul class=" tw-h-screen tw-w-10/12 tw-px-10 tw-pt-20 tw-pb-30 tw-font-bold tw-bg-dee-mobile_menu_black">
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Home</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>My collections</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Radio</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Music videos</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Profile</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Log out</span></li>
             </ul>
         </div>
+
+        <!--home tab-->
+        <section>
+            <!--container-->
+            <div class="dee-container tw-p-3">
+                <div id="hero" class="tw-flex tw-flex-col tw-justify-between tw-text-white tw-h-[60vh] tw-rounded-3xl tw-p-7 tw-bg-dee-hero">
+                    <p class="">curated playlist</p>
+                    <div>
+                        <h1 class="tw-font-bold tw-capitalize tw-text-4xl tw-mb-2">R & B Hits</h1>
+                        <div class="">
+                            All mine, Lie again, Petty call me everyday,
+                            Out of time, No love, Bad habit,
+                            and so much more
+                        </div>
+                        <div class="tw-flex tw-items-center tw-h-16">
+                            <ul class="tw-flex">
+                                <li class="tw-bg-white tw-w-7 tw-h-7 tw-border-2 tw-border-dee-hero tw-border- tw-rounded-full"></li>
+                                <li class="tw-bg-white tw-w-7 tw-h-7 tw-border-2 tw-border-dee-hero tw-border- tw-rounded-full tw-relative tw-right-2"></li>
+                                <li class="tw-bg-white tw-w-7 tw-h-7 tw-border-2 tw-border-dee-hero tw-border- tw-rounded-full tw-relative tw-right-4"></li>
+                                <li class="tw-bg-white tw-w-7 tw-h-7 tw-border-2 tw-border-dee-hero tw-border- tw-rounded-full tw-relative tw-right-6"></li>
+                            </ul>
+
+                            <!--likes-->
+                            <ul class="tw-flex">
+                                <li class="tw-bg-white tw-w-7 tw-h-7 tw-rounded-full"></li>
+                                <li class="tw-ml-3 tw-capitalize">33k likes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--view chart/album tab-->
+        <section>
+            <!--container-->
+            <div class="dee-container tw-p-3"></div>
+        </section>
+
+        <!--my collections tab-->
+        <section>
+            <!--container-->
+            <div class="dee-container tw-p-3"></div>
+        </section>
     </main>
 </body>
 </html>
