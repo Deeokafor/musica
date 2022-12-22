@@ -12,18 +12,32 @@
     <main class="tw-h-screen tw-overflow-hidden tw-w-full tw-bg-dee-black">
         <!--container-->
         <div class="tw-p-3">
-            <nav class="tw-flex tw-justify-between tw-items-center tw-h-14">
-                <!--mobile menu trigger-->
-                <div class="tw-bg-gray-500 tw-h-9 tw-w-9"></div>
-                <div class="tw-bg-gray-500 tw-h-9 tw-w-9 tw-rounded-full"></div>
-                <div class="tw-flex tw-justify-between tw-w-9/12">
-                    <input value="search artist" type="text" name="" id="" class="tw-w-10/12 tw-text-gray-400 tw-bg-transparent">
-                    <div class="tw-bg-gray-500 tw-h-9 tw-w-9 tw-rounded-full"><img src="" alt="" srcset=""></div>
+            <nav class="tw-flex tw-flex-col">
+                <div class="tw-flex tw-justify-between tw-items-center tw-h-14">
+                    <!--mobile menu trigger-->
+                    <div class="tw-bg-gray-500 tw-h-9 tw-w-9"></div>
+                    <!--logo-->
+                    <div id="logo" class="tw-bg-gray-500 tw-h-9 tw-w-9 tw-rounded-full"></div>
+                    <!--search bar-->
+                    <div class="tw-flex tw-justify-between tw-w-9/12">
+                        <input value="search artist" type="text" name="" id="" class="tw-w-10/12 tw-text-gray-500 tw-bg-transparent">
+                        <div class="tw-bg-gray-500 tw-h-9 tw-w-9 tw-rounded-full"><img src="" alt="" srcset=""></div>
+                    </div>
                 </div>
             </nav>
         </div>
-       
-        
+
+        <!--mobile navbar menu-->
+        <div id="mobile_menu" class="tw-fixed tw-top-0 tw-w-full tw-text-gray-500 tw-h-screen tw-bg-black/50">
+            <ul class=" tw-h-screen tw-w-10/12 tw-px-10 tw-py-20 tw-font-bold tw-bg-dee-mobile_menu_black">
+                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Home</span></li>
+                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>My collections</span></li>
+                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Radio</span></li>
+                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Music videos</span></li>
+                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Profile</span></li>
+                <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Log out</span></li>
+            </ul>
+        </div>
     </main>
 </body>
 </html>

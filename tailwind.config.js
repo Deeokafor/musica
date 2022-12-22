@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       colors: {
         dee: {
-          black: '#1D2123'
+          black: '#1D2123',
+          mobile_menu_black: '#1A1E1F'
         }
       }
     },
