@@ -3,6 +3,9 @@ module.exports = {
   //content: ["./{index.html,app.js}"],
   content: ["./index.html"],
   theme: {
+    screens: {
+      'sm': '200px' 
+    },
     extend: {
       colors: {
         dee: {

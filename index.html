@@ -10,7 +10,7 @@
     <script src="assets/js/script.js" defer=""></script>
 </head>
 <body>
-    <main class="tw-h-screen tw-overflow-hidden tw-w-full tw-bg-dee-black">
+    <main class="tw-h-screen tw-overflow-hidden tw-w-full tw-text-white tw-bg-dee-black">
         <!--container-->
         <div  class="dee-container tw-p-3">
             <nav class="tw-flex tw-flex-col">
@@ -31,20 +31,20 @@
         <!--mobile navbar menu-->
         <div id="mobile_menu" class=" tw-z-50 tw-invisible tw-fixed tw-top-0 tw-w-full tw-text-gray-500 tw-h-screen tw-bg-black/50">
             <ul class=" tw-h-screen tw-w-10/12 tw-px-10 tw-pt-20 tw-pb-30 tw-font-bold tw-bg-dee-mobile_menu_black">
-                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Home</span></li>
-                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>My collections</span></li>
-                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Radio</span></li>
-                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Music videos</span></li>
-                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Profile</span></li>
-                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Log out</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-mr-5 tw-rounded-full"><img src="assets/icons/Home.svg" alt="" srcset=""></div> <span>Home</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-mr-5 tw-rounded-full"><img src="assets/icons/playlist.svg" alt="" srcset=""></div> <span>My collections</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-mr-5 tw-rounded-full"><img src="assets/icons/radio.svg" alt="" srcset=""></div> <span>Radio</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-mr-5 tw-rounded-full"><img src="assets/icons/videos.svg" alt="" srcset=""></div> <span>Music videos</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-mr-5 tw-rounded-full"><img src="assets/icons/profile.svg" alt="" srcset=""></div> <span>Profile</span></li>
+                <li class="tw-flex tw-items-center tw-py-4"><div class="tw-mr-5 tw-rounded-full"><img src="assets/icons/Logout.svg" alt="" srcset=""></div> <span>Log out</span></li>
             </ul>
         </div>
 
         <!--home tab-->
-        <section>
+        <section class="tw-h-screen tw-pb-20 tw-overflow-scroll">
             <!--container-->
             <div class="dee-container tw-p-3">
-                <div id="hero" class="tw-flex tw-flex-col tw-justify-between tw-text-white tw-h-[60vh] tw-rounded-3xl tw-p-7 tw-bg-dee-hero">
+                <div id="hero" class="tw-flex tw-flex-col tw-justify-between tw-h-[60vh] tw-rounded-3xl tw-p-7 tw-bg-dee-hero">
                     <p class="">curated playlist</p>
                     <div>
                         <h1 class="tw-font-bold tw-capitalize tw-text-4xl tw-mb-2">R & B Hits</h1>
@@ -66,6 +66,38 @@
                                 <li class="tw-bg-white tw-w-7 tw-h-7 tw-rounded-full"></li>
                                 <li class="tw-ml-3 tw-capitalize">33k likes</li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--top charts-->
+                <div class="tw-py-8">
+                    <h1 class="tw-font-semibold">Top charts</h1>
+                    <div class="tw-w-full tw-overflow-hidden tw-overflow-x-scroll tw-flex tw-py-3 tw-gap-3">
+                        <!--album art 1-->
+                        <div class="tw-flex tw-justify-between tw-h-52 tw-w-64 tw-p-3 tw-rounded-2xl tw-bg-black/20">
+                            <div class="tw-flex tw-flex-col tw-justify-between">
+                                <div id="album art" class="tw-h-20 tw-w-20 tw-rounded-xl tw-bg-gray-500"></div>
+                                <div class="tw-flex tw-flex-col tw-justify-end tw-w-40">
+                                    <span class="tw-font-bold tw-text-lg">Golden age of 80s</span>
+                                    <span class="tw-text-sm tw-font-light tw-block">Sean swadder</span>
+                                    <span class="tw-mt-5">2:34:45</span>
+                                </div>
+                            </div>
+                            <div class="tw-w-7 tw-h-7 tw-bg-orange-500/30 tw-rounded-full"></div>
+                        </div>
+
+                        <!--album art 2-->
+                        <div class="tw-flex tw-justify-between tw-h-52 tw-w-64 tw-p-3 tw-rounded-2xl tw-bg-black/20">
+                            <div class="tw-flex tw-flex-col tw-justify-between">
+                                <div id="album art" class="tw-h-20 tw-w-20 tw-rounded-xl tw-bg-gray-500"></div>
+                                <div class="tw-flex tw-flex-col tw-justify-end tw-w-40">
+                                    <span class="tw-font-bold tw-text-lg">Reggae “n” blues</span>
+                                    <span class="tw-text-sm tw-font-light tw-block">Sean swadder</span>
+                                    <span class="tw-mt-5">2:34:45</span>
+                                </div>
+                            </div>
+                            <div class="tw-w-7 tw-h-7 tw-bg-orange-500/30 tw-rounded-full"></div>
                         </div>
                     </div>
                 </div>
