@@ -557,6 +557,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.tw-visible {
+  visibility: visible;
+}
+
+.tw-invisible {
+  visibility: hidden;
+}
+
 .tw-fixed {
   position: fixed;
 }
@@ -579,6 +587,10 @@ video {
 
 .tw-flex {
   display: flex;
+}
+
+.tw-hidden {
+  display: none;
 }
 
 .tw-h-screen {

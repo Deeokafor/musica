@@ -7,6 +7,7 @@
     <title>Musica</title>
     <link rel="stylesheet" href="assets/css/tailwindcss_stylesheet.css">
     <link rel="stylesheet" href="assets/css/custom_stylesheet.css">
+    <script src="/assets/js/script.js" defer></script>
 </head>
 <body>
     <main class="tw-h-screen tw-overflow-hidden tw-w-full tw-bg-dee-black">
@@ -15,7 +16,7 @@
             <nav class="tw-flex tw-flex-col">
                 <div class="tw-flex tw-justify-between tw-items-center tw-h-14">
                     <!--mobile menu trigger-->
-                    <div class="tw-bg-gray-500 tw-h-9 tw-w-9"></div>
+                    <div id="menu_button" class="tw-bg-gray-500 tw-h-9 tw-w-9"></div>
                     <!--logo-->
                     <div id="logo" class="tw-bg-gray-500 tw-h-9 tw-w-9 tw-rounded-full"></div>
                     <!--search bar-->
@@ -28,7 +29,7 @@
         </div>
 
         <!--mobile navbar menu-->
-        <div id="mobile_menu" class="tw-fixed tw-top-0 tw-w-full tw-text-gray-500 tw-h-screen tw-bg-black/50">
+        <div id="mobile_menu" class="tw-invisible tw-fixed tw-top-0 tw-w-full tw-text-gray-500 tw-h-screen tw-bg-black/50">
             <ul class=" tw-h-screen tw-w-10/12 tw-px-10 tw-py-20 tw-font-bold tw-bg-dee-mobile_menu_black">
                 <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>Home</span></li>
                 <li class="tw-flex tw-items-center tw-py-6"><div class="tw-bg-gray-500 tw-mr-5 tw-p-5 tw-rounded-full"><img src="" alt="" srcset=""></div> <span>My collections</span></li>
