@@ -617,6 +617,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.tw-mr-4 {
+  margin-right: 1rem;
+}
+
 .tw-block {
   display: block;
 }
@@ -669,6 +673,14 @@ video {
   height: 100%;
 }
 
+.tw-h-24 {
+  height: 6rem;
+}
+
+.tw-h-36 {
+  height: 9rem;
+}
+
 .tw-w-full {
   width: 100%;
 }
@@ -707,6 +719,50 @@ video {
 
 .tw-w-16 {
   width: 4rem;
+}
+
+.tw-w-24 {
+  width: 6rem;
+}
+
+.tw-w-\[\] {
+  width: ;
+}
+
+.tw-w-\[100px\] {
+  width: 100px;
+}
+
+.tw-w-\[300px\] {
+  width: 300px;
+}
+
+.tw-w-2 {
+  width: 0.5rem;
+}
+
+.tw-w-32 {
+  width: 8rem;
+}
+
+.tw-w-screen {
+  width: 100vw;
+}
+
+.tw-flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.tw-shrink {
+  flex-shrink: 1;
+}
+
+.tw-shrink-0 {
+  flex-shrink: 0;
+}
+
+.tw-flex-grow-0 {
+  flex-grow: 0;
 }
 
 .tw-flex-col {
@@ -755,6 +811,10 @@ video {
 
 .tw-rounded-xl {
   border-radius: 0.75rem;
+}
+
+.tw-rounded {
+  border-radius: 0.25rem;
 }
 
 .tw-border-2 {
@@ -845,6 +905,10 @@ video {
   padding: 0.25rem;
 }
 
+.tw-p-4 {
+  padding: 1rem;
+}
+
 .tw-px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -863,6 +927,21 @@ video {
 .tw-py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.tw-px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.tw-px-\[0\] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.tw-px-\[-100px\] {
+  padding-left: -100px;
+  padding-right: -100px;
 }
 
 .tw-pt-20 {
