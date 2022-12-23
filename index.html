@@ -41,7 +41,7 @@
         </div>
 
         <!--home tab-->
-        <section class="tw-h-screen tw-pb-20 tw-overflow-scroll">
+        <section class="tw-h-screen tw-pb-52 tw-overflow-scroll">
             <!--container-->
             <div class="dee-container tw-p-3">
                 <div id="hero" class="tw-flex tw-flex-col tw-justify-between tw-h-[60vh] tw-rounded-3xl tw-p-7 tw-bg-dee-hero">
@@ -74,22 +74,22 @@
                 <!--top charts-->
                 <div class="tw-py-8">
                     <h1 class="tw-font-semibold">Top charts</h1>
-                    <div class="tw-w-full tw-overflow-hidden tw-overflow-x-scroll tw-flex tw-py-3 tw-gap-3">
+                    <div class="tw-w-full tw-overflow-hidden tw-overflow-x-scroll tw-flex tw-py-3">
                         <!--album art 1-->
-                        <div class="tw-flex tw-justify-between tw-h-52 tw-w-64 tw-p-3 tw-rounded-2xl tw-bg-black/20">
+                        <div class="tw-flex tw-justify-between tw-h-52 tw-w-64 tw-p-3 tw-mr-3 tw-rounded-2xl tw-bg-black/20">
                             <div class="tw-flex tw-flex-col tw-justify-between">
-                                <div id="album art" class="tw-h-20 tw-w-20 tw-rounded-xl tw-bg-gray-500"></div>
+                                <div id="album art" class="tw-h-20 tw-w-20 tw-rounded-xl tw-bg-gray-500"><img src="assets/icons/Rectangle 29.svg" alt="" srcset=""></div>
                                 <div class="tw-flex tw-flex-col tw-justify-end tw-w-40">
                                     <span class="tw-font-bold tw-text-lg">Golden age of 80s</span>
                                     <span class="tw-text-sm tw-font-light tw-block">Sean swadder</span>
                                     <span class="tw-mt-5">2:34:45</span>
                                 </div>
                             </div>
-                            <div class="tw-flex tw-justify-center tw-p-2 tw-w-7 tw-h-7 tw-border tw-border-yellow-400/30 tw-rounded-full"><img src="assets/icons/Heart.svg" alt=""></div>
+                            <div class="tw-flex tw-justify-center tw-p-1 tw-w-7 tw-h-7 tw-border tw-border-yellow-400/30 tw-rounded-full"><img src="assets/icons/Heart.svg" alt=""></div>
                         </div>
 
                         <!--album art 2-->
-                        <div class="tw-flex tw-justify-between tw-h-52 tw-w-64 tw-p-3 tw-rounded-2xl tw-bg-black/20">
+                        <div class="tw-flex tw-justify-between tw-h-52 tw-w-64 tw-p-3 tw-mr-3 tw-rounded-2xl tw-bg-black/20">
                             <div class="tw-flex tw-flex-col tw-justify-between">
                                 <div id="album art" class="tw-h-20 tw-w-20 tw-rounded-xl tw-bg-gray-500"></div>
                                 <div class="tw-flex tw-flex-col tw-justify-end tw-w-40">
@@ -98,10 +98,15 @@
                                     <span class="tw-mt-5">2:34:45</span>
                                 </div>
                             </div>
-                            <div class="tw-flex tw-justify-center tw-p-2 tw-w-7 tw-h-7 tw-border tw-border-yellow-400/30 tw-rounded-full"><img src="assets/icons/Heart.svg" alt="" srcset=""></div>
+                            <div class="tw-flex tw-justify-center tw-p-1 tw-w-7 tw-h-7 tw-border tw-border-yellow-400/30 tw-rounded-full"><img src="assets/icons/Heart.svg" alt="" srcset=""></div>
                         </div>
                     </div>
                 </div>
+
+                <!--new releases-->
+                <div>
+
+                </div>                
             </div>
         </section>
 
@@ -115,6 +120,29 @@
         <section>
             <!--container-->
             <div class="dee-container tw-p-3"></div>
+        </section>
+
+        <!--media player-->
+        <section class="tw-fixed tw-bottom-0 tw-h-32 tw-w-full tw-border-t-2 tw-border-white/10 tw-bg-black/20 tw-backdrop-blur-md">
+            <!--container-->
+            <div class="tw-p-3 tw-flex tw-h-full tw-bg-white/5">
+                <!--song information-->
+                <div class="tw-flex tw-items-center tw-w-1/2">
+                    <div class="tw-h-16 tw-w-16 tw-bg-gray-500 tw-rounded-2xl"></div>
+                    <div class="tw-ml-3">
+                        <h1 class="tw-font-bold">Seasons in</h1>
+                        <h2 class="tw-text-xs tw-text-white/40">James</h2>
+                    </div>
+                </div>
+                <!--playback controls-->
+                <div class="tw-w-1/2">
+                    <div class="tw-flex tw-items-center tw-justify-end tw-h-full">
+                        <button class="tw-h-7 tw-w-7 tw-p-1 tw-mr-3 tw-rounded-full tw-bg-dee-play"><img src="assets/icons/play.svg" alt="" srcset=""></button>
+                        <button class=""><img src="assets/icons/next.svg" alt="" srcset=""></button>
+                    </div>
+                    <div class="tw-hidden"></div>
+                </div>
+            </div>
         </section>
     </main>
 </body>

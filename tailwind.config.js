@@ -11,7 +11,8 @@ module.exports = {
         dee: {
           black: '#1D2123',
           mobile_menu_black: '#1A1E1F',
-          hero: '#609EAF'
+          hero: '#609EAF',
+          play: '#FACD66'
         }
       }
     },
