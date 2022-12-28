@@ -12,7 +12,8 @@ module.exports = {
           black: '#1D2123',
           mobile_menu_black: '#1A1E1F',
           hero: '#609EAF',
-          play: '#FACD66'
+          play: '#FACD66',
+          text: '#A4C7C6'
         }
       }
     },
