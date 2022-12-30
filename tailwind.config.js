@@ -15,6 +15,13 @@ module.exports = {
           play: '#FACD66',
           text: '#A4C7C6'
         }
+      },
+      backgroundImage: {
+        'hero-pattern': "url('assets/icons/hero_wavy_lines.svg')",
+        'hero-pattern': "url('assets/icons/hero_wavy_lines.svg')",
+      },
+      dropShadow: {
+        'dee': '-3.4px 0px 3.4px rgba(0, 0, 0, 0.2)'
       }
     },
   },
