@@ -40,7 +40,7 @@ module.exports = {
         'background_9_overlay': "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url(/assets/icons/background_9.svg)",
         'background_10_overlay': "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url(/assets/icons/background_10.svg)",
         'background_11_overlay': "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url(/assets/icons/background_11.svg)",
-        'background_9.2_overlay': "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1) 60%), url(/assets/icons/background_9.svg)",
+        'background_9.2_overlay': "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1) 60%), url(/assets/icons/background_9.svg)",
         'background_hero_wavy_overlay': "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url(/assets/icons/background_hero_wavy.svg)"
       },
       dropShadow: {
