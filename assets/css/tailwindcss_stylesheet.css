@@ -996,6 +996,18 @@ video {
   background-image: url(/assets/icons/background_11.svg);
 }
 
+.tw-bg-background_6 {
+  background-image: url(/assets/icons/background_6.svg);
+}
+
+.tw-bg-background_7 {
+  background-image: url(/assets/icons/background_7.svg);
+}
+
+.tw-bg-background_8 {
+  background-image: url(/assets/icons/background_8.svg);
+}
+
 .tw-bg-cover {
   background-size: cover;
 }
