@@ -725,10 +725,6 @@ video {
   height: 4rem;
 }
 
-.tw-h-0 {
-  height: 0px;
-}
-
 .tw-min-h-screen {
   min-height: 100vh;
 }
@@ -946,14 +942,6 @@ video {
 
 .tw-bg-white\/5 {
   background-color: rgb(255 255 255 / 0.05);
-}
-
-.tw-bg-white\/10 {
-  background-color: rgb(255 255 255 / 0.1);
-}
-
-.tw-bg-dee-black\/10 {
-  background-color: rgb(29 33 35 / 0.1);
 }
 
 .tw-bg-background_hero_wavy {

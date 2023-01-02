@@ -18,3 +18,14 @@ mobile_menu_list.addEventListener('click', function(){
     mobile_menu_list.classList.add('tw-invisible');
     console.log(`menu close`);
 })
+
+
+//this block of code handles tab-like opening of the different sections
+const tabs = document.getElementsByClassName('tabs')
+
+function getTabs() {
+    const all_tabs = tabs;
+    console.log(all_tabs[0]);
+}
+
+getTabs();
