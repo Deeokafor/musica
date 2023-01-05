@@ -8,7 +8,7 @@ if (menu_button && mobile_menu_list) {
     console.log(`Both ${menu_button_name} and ${mobile_menu_name} are live`);
     menu_button.addEventListener('click', function () {
         mobile_menu_list.classList.remove('tw-invisible');
-        console.log('menu open');
+        console.log('menu opened');
     });
 } else {
     console.log(`Something is either wrong with ${menu_button} or ${mobile_menu_name} not alive`);
@@ -16,7 +16,7 @@ if (menu_button && mobile_menu_list) {
 
 mobile_menu_list.addEventListener('click', function(){
     mobile_menu_list.classList.add('tw-invisible');
-    console.log(`menu close`);
+    console.log(`menu closed`);
 })
 
 

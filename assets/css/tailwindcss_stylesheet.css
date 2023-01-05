@@ -945,51 +945,51 @@ video {
 }
 
 .tw-bg-background_hero_wavy {
-  background-image: url(/assets/icons/background_hero_wavy_lines.svg);
+  background-image: url('/assets/icons/background_hero_wavy_lines.svg');
 }
 
 .tw-bg-background_11 {
-  background-image: url(/assets/icons/background_11.svg);
+  background-image: url('/assets/icons/background_11.svg');
 }
 
 .tw-bg-background_1 {
-  background-image: url(/assets/icons/background_1.svg);
+  background-image: url('/assets/icons/background_1.svg');
 }
 
 .tw-bg-background_9\.2_overlay {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1) 60%), url(/assets/icons/background_9.svg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1) 60%), url('/assets/icons/background_9.svg');
 }
 
 .tw-bg-background_9 {
-  background-image: url(/assets/icons/background_9.svg);
+  background-image: url('/assets/icons/background_9.svg');
 }
 
 .tw-bg-background_6 {
-  background-image: url(/assets/icons/background_6.svg);
+  background-image: url('/assets/icons/background_6.svg');
 }
 
 .tw-bg-background_8 {
-  background-image: url(/assets/icons/background_8.svg);
+  background-image: url('/assets/icons/background_8.svg');
 }
 
 .tw-bg-background_2 {
-  background-image: url(/assets/icons/background_2.svg);
+  background-image: url('/assets/icons/background_2.svg');
 }
 
 .tw-bg-background_5 {
-  background-image: url(/assets/icons/background_5.svg);
+  background-image: url('/assets/icons/background_5.svg');
 }
 
 .tw-bg-background_4_overlay {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url(/assets/icons/background_4.svg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url('/assets/icons/background_4.svg');
 }
 
 .tw-bg-background_2_overlay {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url(/assets/icons/background_2.svg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url('/assets/icons/background_2.svg');
 }
 
 .tw-bg-background_9_overlay {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url(/assets/icons/background_9.svg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url('/assets/icons/background_9.svg');
 }
 
 .tw-bg-cover {
@@ -1181,4 +1181,11 @@ video {
   --tw-backdrop-blur: blur(12px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+@media (min-width: 768px) {
+  .md\:tw-px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
