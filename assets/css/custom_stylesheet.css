@@ -9,5 +9,65 @@
     webkit based browsers compatibility
 */
 *::-webkit-scrollbar {
-    width: thin;
+    scrollbar-width: thin;
+}
+
+/* ruleset to make the input range transparent */
+input[type=range] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    cursor: pointer;    
+}
+
+/* rule set to style chrome-based thumb sliders */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #FACD66;
+    outline: 2px solid white;
+    outline-offset: 2px;
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    margin-top: -4.5px;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0,0.5));
+}
+
+/* rule set to style chrome-based tracks */
+input[type=range]::-webkit-slider-runnable-track {
+    background: #FACD66;
+    height: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    filter: drop-shadow(1px 1px 15px black);
+}
+
+input[type=range]:hover::-webkit-slider-runnable-track{
+    background-color: black;
+}
+
+/* rule set to style mozilla-based thumb sliders */
+input[type=range]::-moz-range-thumb {
+    -moz-appearance: none;
+    background-color: #FACD66;
+    outline: 2px solid white;
+    outline-offset: 2px;
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    border: 0px;
+    margin-top: -4.5px;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0,0.5));
+}
+
+/* rule set to style mozilla-based tracks */
+input[type=range]::-moz-range-track {
+    background: #FACD66;
+    height: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
