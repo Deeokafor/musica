@@ -642,8 +642,8 @@ video {
   margin-top: 3rem;
 }
 
-.tw-ml-3 {
-  margin-left: 0.75rem;
+.tw-ml-2 {
+  margin-left: 0.5rem;
 }
 
 .tw-mr-3 {
@@ -670,8 +670,8 @@ video {
   margin-right: 0.25rem;
 }
 
-.tw-ml-2 {
-  margin-left: 0.5rem;
+.tw-ml-3 {
+  margin-left: 0.75rem;
 }
 
 .tw-block {
@@ -736,6 +736,22 @@ video {
 
 .tw-h-16 {
   height: 4rem;
+}
+
+.tw-h-\[70vh\] {
+  height: 70vh;
+}
+
+.tw-h-\[\] {
+  height: ;
+}
+
+.tw-h-\[503px\] {
+  height: 503px;
+}
+
+.tw-h-\[450px\] {
+  height: 450px;
 }
 
 .tw-min-h-screen {
@@ -816,10 +832,6 @@ video {
 
 .tw-w-1\/4 {
   width: 25%;
-}
-
-.tw-w-6 {
-  width: 1.5rem;
 }
 
 .tw-shrink-0 {
@@ -968,16 +980,20 @@ video {
   background-image: url('/assets/icons/background_hero_wavy_lines.svg');
 }
 
+.tw-bg-background_3 {
+  background-image: url('/assets/icons/background_3.svg');
+}
+
 .tw-bg-background_11 {
   background-image: url('/assets/icons/background_11.svg');
 }
 
-.tw-bg-background_9\.2_overlay {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1) 60%), url('/assets/icons/background_9.svg');
-}
-
 .tw-bg-background_9 {
   background-image: url('/assets/icons/background_9.svg');
+}
+
+.tw-bg-background_9\.2_overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1) 60%), url('/assets/icons/background_9.svg');
 }
 
 .tw-bg-background_6 {
@@ -994,34 +1010,6 @@ video {
 
 .tw-bg-background_9_overlay {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url('/assets/icons/background_9.svg');
-}
-
-.tw-bg-background_2 {
-  background-image: url('/assets/icons/background_2.svg');
-}
-
-.tw-bg-background_1 {
-  background-image: url('/assets/icons/background_1.svg');
-}
-
-.tw-bg-background_3 {
-  background-image: url('/assets/icons/background_3.svg');
-}
-
-.tw-bg-background_4 {
-  background-image: url('/assets/icons/background_4.svg');
-}
-
-.tw-bg-background_5 {
-  background-image: url('/assets/icons/background_5.svg');
-}
-
-.tw-bg-background_7 {
-  background-image: url('/assets/icons/background_7.svg');
-}
-
-.tw-bg-background_8 {
-  background-image: url('/assets/icons/background_8.svg');
 }
 
 .tw-bg-cover {
@@ -1204,10 +1192,6 @@ video {
   opacity: 0.7;
 }
 
-.tw-opacity-5 {
-  opacity: 0.05;
-}
-
 .tw-drop-shadow-dee {
   --tw-drop-shadow: drop-shadow(-3.4px 0px 3.4px rgba(0, 0, 0, 0.2));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1215,21 +1199,6 @@ video {
 
 .tw-drop-shadow-md {
   --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.tw-drop-shadow-lg {
-  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.tw-drop-shadow {
-  --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.tw-drop-shadow-sm {
-  --tw-drop-shadow: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -1319,10 +1288,6 @@ video {
     margin-left: 8rem;
   }
 
-  .md\:tw-mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
   .md\:tw-block {
     display: block;
   }
@@ -1333,6 +1298,14 @@ video {
 
   .md\:tw-hidden {
     display: none;
+  }
+
+  .md\:tw-h-\[373px\] {
+    height: 373px;
+  }
+
+  .md\:tw-h-5 {
+    height: 1.25rem;
   }
 
   .md\:tw-h-auto {
@@ -1361,14 +1334,6 @@ video {
 
   .md\:tw-h-8 {
     height: 2rem;
-  }
-
-  .md\:tw-h-5 {
-    height: 1.25rem;
-  }
-
-  .md\:tw-min-h-\[373px\] {
-    min-height: 373px;
   }
 
   .md\:tw-w-full {
@@ -1439,18 +1404,8 @@ video {
     width: 2rem;
   }
 
-  @media (min-width: 768px) {
-    .md\:md\:tw-w-5 {
-      width: 1.25rem;
-    }
-  }
-
   .md\:tw-shrink-0 {
     flex-shrink: 0;
-  }
-
-  .md\:tw-scroll-pb-32 {
-    scroll-padding-bottom: 8rem;
   }
 
   .md\:tw-flex-row {
@@ -1555,53 +1510,17 @@ video {
     padding-right: 0.75rem;
   }
 
-  .md\:tw-pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
-  .md\:tw-pb-5 {
-    padding-bottom: 1.25rem;
-  }
-
-  .md\:tw-pb-4 {
-    padding-bottom: 1rem;
-  }
-
-  .md\:tw-pb-40 {
-    padding-bottom: 10rem;
-  }
-
-  .md\:tw-pb-3 {
-    padding-bottom: 0.75rem;
-  }
-
   .md\:tw-pb-32 {
     padding-bottom: 8rem;
   }
 
-  .md\:tw-pb-36 {
-    padding-bottom: 9rem;
+  .md\:tw-pb-5 {
+    padding-bottom: 1.25rem;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:tw-bg-background_hero_person_wavy {
     background-image: url('/assets/icons/background_hero_person_wavy_lines.svg');
-  }
-
-  .lg\:tw-bg-cover {
-    background-size: cover;
-  }
-
-  .lg\:tw-bg-contain {
-    background-size: contain;
-  }
-
-  .lg\:tw-bg-right-bottom {
-    background-position: right bottom;
-  }
-
-  .lg\:tw-bg-bottom {
-    background-position: bottom;
   }
 }
